@@ -12,10 +12,10 @@ export const projects: Project[] = [
       en: 'B2B/B2C Automation Solution using n8n',
       kr: 'n8n을 활용한 B2B/B2C 업무 자동화 및 효율화 솔루션'
     },
-    imageUrl: '/images/pragmatist-thumb.png',
+    imageUrl: '/images/pragmatist-thumb-v2.png',
     projectUrl: '/project/pragmatist',
     screenshots: [
-      '/images/pragmatist-thumb.png'
+      '/images/pragmatist-thumb-v2.png'
     ],
     details: {
       period: {
