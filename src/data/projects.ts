@@ -15,7 +15,9 @@ export const projects: Project[] = [
     imageUrl: '/images/pragmatist-thumb-v2.png',
     projectUrl: '/project/pragmatist',
     screenshots: [
-      '/images/pragmatist-thumb-v2.png'
+      '/images/pragmatist-thumb-v2.png',
+      '/images/pragmatist-portfolio-1.png',
+      '/images/pragmatist-portfolio-2.png'
     ],
     details: {
       period: {
