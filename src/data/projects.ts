@@ -334,12 +334,16 @@ export const projects: Project[] = [
     imageUrl: '/images/tetherbear-logo.png',
     projectUrl: '/project/tetherbear',
     screenshots: [
-      '/images/tetherbear-logo.png'
+      '/images/tetherbear-logo.png',
+      '/images/tetherbear-1.png',
+      '/images/tetherbear-2.png',
+      '/images/tetherbear-3.png',
+      '/images/tetherbear-4.png'
     ],
     details: {
       period: {
-        en: '2024 - Present',
-        kr: '2024년 - 진행 중'
+        en: 'May 2024 - Oct 2024',
+        kr: '2024년 5월 - 2024년 10월'
       },
       team: [
         {
