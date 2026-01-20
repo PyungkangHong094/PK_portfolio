@@ -36,7 +36,7 @@ export const projects = [
           }
         }
       ],
-      stack: ['n8n', 'Python', 'VM Server','notion'],
+      stack: ['n8n', 'Python', 'VM Server', 'notion'],
       features: {
         en: [
           'Project management for interior design',
@@ -67,7 +67,7 @@ export const projects = [
     links: {
       link: 'https://www.d2designandworks.com/'
     }
-},
+  },
   {
     id: '1',
     type: 'web',
@@ -293,7 +293,7 @@ export const projects = [
       },
       team: [
         {
-          role: { 
+          role: {
             en: 'Project Manager',
             kr: '프로젝트 매니저'
           },
@@ -392,7 +392,7 @@ export const projects = [
         },
         {
           role: {
-            en: 'Backend Developer - Hawon Park', 
+            en: 'Backend Developer - Hawon Park',
             kr: '백엔드 개발자 - 박하원'
           },
           responsibilities: {
@@ -410,7 +410,7 @@ export const projects = [
             kr: '사용자 인터페이스 구현'
           }
         }
-       ],
+      ],
       stack: ['React', 'Python', 'Django', 'nginx', 'Docker', 'RESTful API'],
       features: {
         en: [
@@ -464,7 +464,7 @@ export const projects = [
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuSVXS%2FbtsK52S0KSg%2FIEUDDxNayYaWKH5oP3kfMk%2Fimg.png',
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLoga5%2FbtsK42TGRoV%2FzIeEBPYgCD8Ktj1zElU9T0%2Fimg.png',
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd2hfGi%2FbtsK7a3AYX6%2FkNMnwPEYWxs6wmDgnoOZlk%2Fimg.png',
-    ],    details: {
+    ], details: {
       period: {
         en: 'March 2021 - May 2022',
         kr: '2021년 3월 - 2022년 5월'
@@ -551,7 +551,7 @@ export const projects = [
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc5Ll0c%2FbtsK5nQ9BGm%2Fvzmjmk57VgnMK5t7BGNb9k%2Fimg.png',
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsWVNa%2FbtsK7NNEDTY%2F0aPbqNRX3HsujgH9YFCwhK%2Fimg.png',
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FntsiQ%2FbtsK7IscZ6Q%2Fr94h64xN0eeXbKmR4Yi701%2Fimg.png',
-    ],    details: {
+    ], details: {
       period: {
         en: 'May 2020 - Sept 2020',
         kr: '2020년 5월 - 2020년 9월'
@@ -681,8 +681,7 @@ export const projects = [
       }
     },
     links: {
-      blog: 'https://chartget.co.kr/',
-      web: 'https://chartgetalgo.com/'
+      blog: 'https://chartget.co.kr/'
     }
   },
   {

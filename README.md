@@ -207,7 +207,6 @@ npm run lint
 - **역할**: 프리랜서 개발 컨설턴트
 
 ### 2. **3TP Trading Strategy** (2022.03 - 2022.11)
-![3TP Trading Strategy Screen](/public/images/3tp-strategy.png)
 - **유형**: 웹 플랫폼
 - **설명**: Pine Script를 활용한 고급 트레이딩 전략 개발 및 자동화
 - **기술**: Pine Script, Python, TradingView API, VM Server
@@ -258,7 +257,7 @@ npm run lint
 - **기술**: Flutter, Firebase, Dart, Hive/SQLite
 - **역할**: 프로젝트 매니저
 - **팀**: 3명
-- **링크**: [chartgetalgo.com](https://chartgetalgo.com/)
+
 
 ### 9. **Woulduin Coin** (2021.01 - 2021.12) [판매됨]
 - **유형**: 웹 & 모바일 앱
