@@ -1,6 +1,62 @@
 import { Project } from '../types';
 
-export const projects = [
+export const projects: Project[] = [
+  {
+    id: 'pragmatist',
+    type: 'web',
+    title: {
+      en: 'Pragmatist',
+      kr: '프래그머티스트 - 실용주의자'
+    },
+    description: {
+      en: 'B2B/B2C Automation Solution using n8n',
+      kr: 'n8n을 활용한 B2B/B2C 업무 자동화 및 효율화 솔루션'
+    },
+    imageUrl: '/images/pragmatist-thumb.png',
+    projectUrl: '/project/pragmatist',
+    screenshots: [
+      '/images/pragmatist-thumb.png'
+    ],
+    details: {
+      period: {
+        en: '2024 - Present',
+        kr: '2024년 - 진행 중'
+      },
+      team: [
+        {
+          role: { en: 'Project Leader', kr: '프로젝트 리더' },
+          responsibilities: { en: 'Pyungkang Hong', kr: '홍평강' }
+        },
+        {
+          role: { en: 'Engineering', kr: '엔지니어링' },
+          responsibilities: { en: 'Whwaseok Lee', kr: '이화석' }
+        }
+      ],
+      stack: ['n8n', 'Automation', 'Python', 'Web'],
+      features: {
+        en: [
+          'Business process automation',
+          'Workflow optimization',
+          'Custom integration solutions',
+          'Efficiency consulting'
+        ],
+        kr: [
+          '비즈니스 프로세스 자동화',
+          '워크플로우 최적화',
+          '맞춤형 통합 솔루션',
+          '업무 효율화 컨설팅'
+        ]
+      },
+      about: {
+        en: 'Pragmatist helps businesses and individuals redesign their lives through automation. We use n8n to handle complex tasks and solve problems practically, acting as your automation partner.',
+        kr: '자동화로 삶을 다시 디자인하다. 당신의 일을 대신 해드립니다. 복잡한 문제를 실용적으로 해결하며, 기업과 개인의 업무 효율을 극대화하는 n8n 기반 자동화 솔루션을 제공합니다.'
+      }
+    },
+    links: {
+      web: 'https://www.pragmatist.co.kr/',
+      kmong: 'https://kmong.com/gig/710905'
+    }
+  },
   {
     id: '0',
     type: 'web',
