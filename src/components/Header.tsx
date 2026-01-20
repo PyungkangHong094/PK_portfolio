@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { Moon, Sun, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -49,7 +49,7 @@ export function Header() {
         <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
           {t('header.title')}
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto break-keep leading-relaxed px-4">
           {t('header.subtitle')}
         </p>
       </div>
