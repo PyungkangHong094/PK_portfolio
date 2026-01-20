@@ -232,7 +232,7 @@ export const projects = [
         },
         {
           role: { en: 'UI/UX Designer', kr: 'UI/UX 디자이너' },
-          responsibilities: { en: 'Lee Dahae', kr: '이다혜' }
+          responsibilities: { en: 'Choi Hyemin', kr: '최혜민' }
         }
       ],
       stack: ['Flutter', 'Supabase', 'Pine Script', 'Python', 'SQLite/Hive', 'Chart.js'],
@@ -253,12 +253,6 @@ export const projects = [
       about: {
         en: 'ChartQ represents the future of financial education, offering an innovative approach to learning chart analysis and trading strategies. The platform combines gamification with practical learning, featuring interactive quizzes, real-time market data integration, and a comprehensive achievement system. Our focus on user engagement and practical application makes complex financial concepts accessible and enjoyable to learn.',
         kr: '금융 차트 분석을 재미있고 인터랙티브하게 학습할 수 있는 플랫폼, 사용자가 금유이 어렵게 느껴지는 부분을 쉽고 간편하게 다가가는 교육 정보 앱. 차트 게임을 해서 금융차트를 읽는 흐름을 파악할 수있게 도와주는 앱'
-      },
-      successMetrics: {
-        marketReach: 92,
-        conversion: 95,
-        retention: 89,
-        growth: 90
       }
     },
     links: {
