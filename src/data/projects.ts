@@ -201,16 +201,14 @@ export const projects = [
       en: 'ChartQ is a comprehensive platform for mastering financial chart analysis, combining education, quizzes, games, and practical trading strategies to help users succeed in real-world investing',
       kr: '금융 차트 학습 앱: 퀴즈,게임 및 트레이딩 전략을 제공하는 종합 플랫폼'
     },
-    imageUrl: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F7QsDn%2FbtsK4rMMAEx%2F4bjJV7fPp82p01uULHb1Fk%2Fimg.png',
+    imageUrl: '/images/chartq-1.png',
     projectUrl: '/project/3',
     screenshots: [
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F7QsDn%2FbtsK4rMMAEx%2F4bjJV7fPp82p01uULHb1Fk%2Fimg.png',
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FboJ1ve%2FbtsK5F35mkc%2F4B7MCvGbKsLWhEpQupbzu0%2Fimg.png',
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnVAlT%2FbtsK5EqzHmF%2FXDIO4S7kXJWnB6OMzCZ01k%2Fimg.png',
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FckZ0pb%2FbtsK6sCVIKp%2FthDyQ0ZjUK10R74ABRhQz0%2Fimg.png',
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc5pIWY%2FbtsK4ivwYUc%2FbTk3STUoqfGiyOKq7jJfw0%2Fimg.png',
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvWmb7%2FbtsK6rD0RRW%2FT3kSpSPValRnlv2Y4S0Ea1%2Fimg.png',
-      'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FN0wbg%2FbtsK6AVf7xe%2FfX1poGX6olq8u5OpBvcS3K%2Fimg.png',
+      '/images/chartq-1.png',
+      '/images/chartq-2.png',
+      '/images/chartq-3.png',
+      '/images/chartq-4.png',
+      '/images/chartq-5.png',
     ],
     details: {
       period: {
@@ -263,7 +261,9 @@ export const projects = [
     },
     links: {
       web: "https://chartq.app/",
-      figma: 'https://www.figma.com/design/vPnVbj3rBttZvcBplhQLx8/CHARTQ?node-id=0-1&t=8KahQpHmbRXdQLFY-1'
+      figma: 'https://www.figma.com/design/vPnVbj3rBttZvcBplhQLx8/CHARTQ?node-id=0-1&t=8KahQpHmbRXdQLFY-1',
+      appStore: 'https://apps.apple.com/kr/app/chartq/id6740187028',
+      playStore: 'https://play.google.com/store/apps/details?id=com.chartq.app'
     }
   },
   {
