@@ -207,6 +207,7 @@ npm run lint
 - **역할**: 프리랜서 개발 컨설턴트
 
 ### 2. **3TP Trading Strategy** (2022.03 - 2022.11)
+![3TP Trading Strategy Screen](/public/images/3tp-strategy.png)
 - **유형**: 웹 플랫폼
 - **설명**: Pine Script를 활용한 고급 트레이딩 전략 개발 및 자동화
 - **기술**: Pine Script, Python, TradingView API, VM Server

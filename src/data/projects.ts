@@ -79,10 +79,10 @@ export const projects = [
       en: 'Advanced trading strategy development and automation platform using Pine Script',
       kr: 'Pine Script를 활용한 고급 트레이딩 전략 개발 및 자동화 플랫폼'
     },
-    imageUrl: 'https://chartgetalgo.com/images/chartgetalgoIndicator.png',
+    imageUrl: '/images/3tp-strategy.png',
     projectUrl: '/project/1',
     screenshots: [
-      'https://chartgetalgo.com/images/chartgetalgoIndicator.png',
+      '/images/3tp-strategy.png',
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6JVjW%2FbtsK64QC3Fe%2F5sL8F5CKuuLoxIrchDFmxk%2Fimg.png',
       'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbWzkxE%2FbtsK72R4xN4%2F5AmrXxNFIJkZhpHhqp9641%2Fimg.png'
     ],
