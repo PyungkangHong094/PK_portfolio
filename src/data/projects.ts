@@ -201,7 +201,7 @@ export const projects = [
       en: 'ChartQ is a comprehensive platform for mastering financial chart analysis, combining education, quizzes, games, and practical trading strategies to help users succeed in real-world investing',
       kr: '금융 차트 학습 앱: 퀴즈,게임 및 트레이딩 전략을 제공하는 종합 플랫폼'
     },
-    imageUrl: '/images/chartq-00.png',
+    imageUrl: '/images/chartq-0.png',
     projectUrl: '/project/3',
     screenshots: [
       '/images/chartq-0.png',
