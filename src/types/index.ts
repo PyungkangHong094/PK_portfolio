@@ -25,7 +25,7 @@ export interface Project {
       kr: string[];
     };
     about: LocalizedString;
-    successMetrics: {
+    successMetrics?: {
       [key: string]: number;
     };
   };
@@ -35,5 +35,6 @@ export interface Project {
     appStore?: string;
     playStore?: string;
     blog?: string;
+    [key: string]: string | undefined;
   };
 }

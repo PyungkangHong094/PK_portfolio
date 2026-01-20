@@ -53,11 +53,10 @@ export function ProjectDetail() {
                 key={index}
                 src={screenshot}
                 alt={`${project.title[currentLang]} screenshot ${index + 1}`}
-                className={`object-cover rounded-lg shadow-lg flex-none ${
-                  project.type === 'web'
+                className={`object-cover rounded-lg shadow-lg flex-none ${project.type === 'web'
                     ? 'w-[800px] h-[450px]'
                     : 'w-[270px] h-[584px]'
-                }`}
+                  }`}
               />
             ))}
           </div>
@@ -151,23 +150,25 @@ export function ProjectDetail() {
         </div>
 
         {/* Success Metrics */}
-        <div className="max-w-7xl mx-auto mt-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {Object.entries(project.details.successMetrics).map(([key, value]) => (
-              <div
-                key={key}
-                className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-gray-700/50 text-center"
-              >
-                <div className="text-3xl font-bold text-blue-400 mb-2">
-                  {value}%
+        {project.details.successMetrics && (
+          <div className="max-w-7xl mx-auto mt-12">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              {Object.entries(project.details.successMetrics).map(([key, value]) => (
+                <div
+                  key={key}
+                  className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-gray-700/50 text-center"
+                >
+                  <div className="text-3xl font-bold text-blue-400 mb-2">
+                    {value}%
+                  </div>
+                  <div className="text-sm text-gray-300">
+                    {t(`projectDetails.metrics.${key}`)}
+                  </div>
                 </div>
-                <div className="text-sm text-gray-300">
-                  {t(`projectDetails.metrics.${key}`)}
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
