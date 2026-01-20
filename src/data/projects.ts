@@ -321,6 +321,59 @@ export const projects: Project[] = [
     }
   },
   {
+    id: 'tetherbear',
+    type: 'app',
+    title: {
+      en: 'TetherBear',
+      kr: '테더베어 - TetherBear'
+    },
+    description: {
+      en: 'Real-time chart analysis and auxiliary indicators platform',
+      kr: '실시간 차트와 보조지표를 제공하는 금융 정보 앱'
+    },
+    imageUrl: '/images/tetherbear-logo.png',
+    projectUrl: '/project/tetherbear',
+    screenshots: [
+      '/images/tetherbear-logo.png'
+    ],
+    details: {
+      period: {
+        en: '2024 - Present',
+        kr: '2024년 - 진행 중'
+      },
+      team: [
+        {
+          role: { en: 'Full Stack Developer', kr: '1인 개발' },
+          responsibilities: { en: 'Pyungkang Hong', kr: '홍평강' }
+        }
+      ],
+      stack: ['Flutter', 'Real-time Data', 'Chart Analysis', 'App Development'],
+      features: {
+        en: [
+          'Real-time charts & indicators',
+          'Expert manager feedback',
+          'Customized consulting',
+          'Market analysis & communication'
+        ],
+        kr: [
+          '실시간 차트 및 보조지표',
+          '전문 매니저 실시간 피드백',
+          '개인 맞춤형 컨설팅',
+          '실시간 시황 및 소통'
+        ]
+      },
+      about: {
+        en: 'TetherBear helps you master complex financial charts with ease. It provides intuitive chart indicators, real-time market analysis, and direct communication with expert managers. From beginners to experts, optimize your trading direction with personalized consulting.',
+        kr: '복잡한 금융 차트, 더 이상 혼자 해석하지 마세요. 테더베어는 쉽고 직관적인 차트 지표와 실시간 시황, 그리고 전문 매니저와의 소통을 통해 개인별 맞춤형 지원을 제공합니다. 초보부터 고수까지, 당신의 거래 방향을 최적화해 드립니다.'
+      }
+    },
+    links: {
+      web: 'https://tetherbear.com/',
+      playStore: 'https://play.google.com/store/apps/details?id=com.tetherbearflutter.app&hl=ko',
+      appStore: 'https://apps.apple.com/kr/app/%ED%85%8C%EB%8D%94%EB%B2%A0%EC%96%B4-tetherbear/id6754923635'
+    }
+  },
+  {
     id: '4',
     type: 'web',
     title: {
